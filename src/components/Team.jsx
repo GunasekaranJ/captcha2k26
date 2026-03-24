@@ -1,25 +1,25 @@
 import SectionWrapper, { SectionHeading, RevealOnScroll } from './SectionWrapper'
 
 const nam = [
-  { name: 'Dr Ramamurthi v p', role: 'Chairman', dept: 'DCE', avatar: '👩‍🏫' },
-  { name: 'Mrs roopa k s', role: 'CEO', dept: 'DCE', avatar: '👨‍🏫' },
-  { name: 'Dr pradeep kumar a r', role: 'Principal', dept: 'DCE', avatar: '👩‍🏫' },
-  { name: 'Dr vivekanandan s j', role: 'HOD', dept: 'Cse', avatar: '👩‍🏫' },
+  { name: 'Dr Ramamurthi v p', role: 'Chairman', dept: 'DCE', avatar: '👨‍🏫' },
+  { name: 'Mrs roopa k s', role: 'CEO', dept: 'DCE', avatar: '👩‍🏫' },
+  { name: 'Dr pradeep kumar a r', role: 'Principal', dept: 'DCE', avatar: '👨‍🏫' },
+  { name: 'Dr vivekanandan s j', role: 'HOD', dept: 'Cse', avatar: '👨‍🏫' },
 ]
 
 
 
 const faculty = [
   { name: 'Mrs Mariammal R', role: 'Faculty Co-ordinator', dept: 'Computer Science', avatar: '👩‍🏫' },
-  { name: 'Mrs Arthi Priyadharshini M', role: 'Faculty Co-ordinator', dept: 'Computer Science', avatar: '👨‍🏫' },
+  { name: 'Mrs Arthi Priyadharshini M', role: 'Faculty Co-ordinator', dept: 'Computer Science', avatar: '👩‍🏫' },
   { name: 'Mrs Muthumari L', role: 'Faculty Co-ordinator', dept: 'Computer Science  ', avatar: '👩‍🏫' },
 ]
 
 const students = [
   { name: 'Gowtham balaji a', role: 'Student Co-ordinator', avatar: '👨‍💻' },
-  { name: 'arunagiri m  ', role: 'Student Co-ordinator', avatar: '👩‍💻' },
+  { name: 'arunagiri m  ', role: 'Student Co-ordinator', avatar: '👨‍💻' },
   { name: 'magesh v', role: 'Student Co-ordinator', avatar: '👨‍💻' },
-  { name: 'vigneshwaran k', role: 'Student Co-ordinator', avatar: '👩‍💻' },
+  { name: 'vigneshwaran k', role: 'Student Co-ordinator', avatar: '👨‍💻' },
 ]
 
 function MemberCard({ member, showDept, delay }) {
