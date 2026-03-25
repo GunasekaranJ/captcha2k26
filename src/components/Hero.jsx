@@ -97,7 +97,7 @@ export default function Hero() {
           <img
             src={captcha}
             alt="captcha2k26"
-            className="size-36 w-96 md:size-96 md:w-[900px] captchaimage"
+            className="size-36 w-96 md:size-80 md:w-[900px] captchaimage"
           />
         </span>
 
