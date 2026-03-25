@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import captcha from './300-700pxl.png'
+import captcha from './logo without bg.png'
 import './Hero.css'
 
 const containerVariants = {
@@ -78,7 +78,7 @@ export default function Hero() {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="relative z-20 text-center px-6 max-w-5xl mx-auto flex flex-col items-center gap-3 mt-16 md:mt-20"
+        className="relative z-20 text-center px-6 max-w-5xl mx-auto flex flex-col items-center gap-3 sm:mt-16 md:mt-20"
       >
         {/* Eyebrow */}
         <motion.div variants={fadeIn} className="flex flex-col items-center gap-3">
@@ -97,7 +97,7 @@ export default function Hero() {
           <img
             src={captcha}
             alt="captcha2k26"
-            className="size-36   w-96 md:size-80 md:w-[950px] captchaimage"
+            className="size-36 w-96 md:size-96 md:w-[900px] captchaimage"
           />
         </span>
 

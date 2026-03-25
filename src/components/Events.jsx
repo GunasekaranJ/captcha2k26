@@ -17,7 +17,7 @@ const tracks = [
     title: 'E - sports',
     category: 'Competitive',
     desc: 'A high-intensity arena where survival and strategy crown the champions.',
-    prize: '₹249',
+    prize: '₹199',
     color: '#ffd700',
     link: 'https://forms.gle/2gMJAgik33HTqTRWA'
   },

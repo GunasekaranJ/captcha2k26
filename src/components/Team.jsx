@@ -4,15 +4,15 @@ const nam = [
   { name: 'Dr Ramamurthi v p', role: 'Chairman', dept: 'DCE', avatar: '👨‍🏫' },
   { name: 'Mrs roopa k s', role: 'CEO', dept: 'DCE', avatar: '👩‍🏫' },
   { name: 'Dr pradeep kumar a r', role: 'Principal', dept: 'DCE', avatar: '👨‍🏫' },
-  { name: 'Dr vivekanandan s j', role: 'HOD', dept: 'Cse', avatar: '👨‍🏫' },
+  { name: 'Dr vivekanandan s j', role: 'HOD', dept: 'Department of Computer Science and Engineering', avatar: '👨‍🏫' },
 ]
 
 
 
 const faculty = [
-  { name: 'Mrs Mariammal R', role: 'Faculty Co-ordinator', dept: 'Computer Science', avatar: '👩‍🏫' },
-  { name: 'Mrs Arthi Priyadharshini M', role: 'Faculty Co-ordinator', dept: 'Computer Science', avatar: '👩‍🏫' },
-  { name: 'Mrs Muthumari L', role: 'Faculty Co-ordinator', dept: 'Computer Science  ', avatar: '👩‍🏫' },
+  { name: 'Mrs Mariammal R', role: 'Faculty Co-ordinator', dept: 'Department of Computer Science and Engineering', avatar: '👩‍🏫' },
+  { name: 'Mrs Arthi Priyadharshini M', role: 'Faculty Co-ordinator', dept: 'Department of Computer Science and Engineering', avatar: '👩‍🏫' },
+  { name: 'Mrs Muthumari L', role: 'Faculty Co-ordinator', dept: 'Department of Computer Science and Engineering  ', avatar: '👩‍🏫' },
 ]
 
 const students = [
@@ -26,12 +26,12 @@ function MemberCard({ member, showDept, delay }) {
   return (
     <RevealOnScroll delay={delay} direction="up">
       <div className="glass card-glow rounded-2xl p-6 border border-gold-400/10 text-center group">
-        <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl relative"
+        {/* <div className="w-16 h-16 rounded-full mx-auto mb-4 flex items-center justify-center text-2xl relative"
           style={{ background: 'linear-gradient(135deg, #8b0000, #2b0000)', border: '1px solid rgba(255,215,0,0.25)', boxShadow: '0 0 20px rgba(255,215,0,0.1)' }}>
           {member.avatar}
           <div className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"
             style={{ boxShadow: '0 0 20px rgba(255,215,0,0.4)', border: '1px solid rgba(255,215,0,0.5)' }} />
-        </div>
+        </div> */}
         <h4 className="font-heading uppercase text-base font-bold gold-text mb-1">{member.name}</h4>
         <p className="font-heading text-[0.65rem] tracking-wider uppercase text-amber-500/60">{member.role}</p>
         {showDept && member.dept && (

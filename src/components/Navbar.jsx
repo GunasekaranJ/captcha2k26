@@ -19,7 +19,9 @@ export default function Navbar() {
   const handleNav = (e, href) => {
     e.preventDefault()
     setMenuOpen(false)
+    setTimeout(() => {
     document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })
+  }, 300)
   }
 
   return (
@@ -89,6 +91,7 @@ export default function Navbar() {
             animate={{ height: 'auto', opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.6, ease: 'easeInOut' }}
+            style={{ overflow: 'hidden' }}
             className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between"
           >
             <ul className="flex flex-col py-4 px-6 gap-4 ">
