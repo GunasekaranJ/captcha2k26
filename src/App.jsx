@@ -6,6 +6,7 @@ import Events from './components/Events'
 // import Testimonials from './components/Testimonials'
 import Team from './components/Team'
 import Contact from './components/Contact'
+import OfferBanner from './components/OfferBanner'
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
+        <OfferBanner />
         <About />
         <Events />
         {/* <Highlights /> */}

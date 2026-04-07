@@ -8,7 +8,7 @@ const tracks = [
     title: 'Tech and non-tech',
     category: 'Competitive',
     desc: 'A dynamic blend of technical innovation and creative non-technical excellence.',
-    prize: '₹149',
+    prize: '₹99',
     color: '#ffd700',
     link: 'https://forms.gle/C7EhKr3JsHYCZCDz7'
   },
@@ -17,7 +17,7 @@ const tracks = [
     title: 'E - sports',
     category: 'Competitive',
     desc: 'A high-intensity arena where survival and strategy crown the champions.',
-    prize: '₹199',
+    prize: '₹99',
     color: '#ffd700',
     link: 'https://forms.gle/2gMJAgik33HTqTRWA'
   },
